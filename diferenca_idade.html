@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script>
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	var minhaIdade = 31;
+	var irmaoIdade = 35;
+
+	mostra("Nossa diferença de idade é " + (minhaIdade - irmaoIdade));
+
+	var anoInicial = 1500;
+	var anoAtual = 2016;
+	var geracoes = (anoAtual - anoInicial) / 28;
+
+	mostra("Passaram " + Math.round(geracoes) + " gerações");
+
+</script>
